@@ -1,0 +1,28 @@
+{
+  "name": "mec_report_2022",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "postcss ./css/global.scss -o ./css/style.css --env development --watch",
+    "build": "postcss ./css/global.scss -o ./css/style.css --env production"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "tailwind-children": "^0.5.0",
+    "tailwindcss": "3.0.24",
+    "tailwindcss-scoped-groups": "^2.0.0"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 version",
+    "not ie <= 11",
+    "Firefox ESR"
+  ]
+}
